@@ -1,0 +1,125 @@
+body {
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  width: 900px;
+  height: 700px;
+  margin: 0 auto;
+}
+
+
+/*=======Button change=======*/
+.btn {
+  width: 70px;
+  height: 30px;
+  background: #0685D7;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.active-btn {
+  background: #0901CD;
+}
+
+
+/*=========Block for all elements====*/
+.content-wrapper {
+  display: flex;
+  width: 1000px;
+  height: 640px;
+  margin-top: 10px;
+  background: #E6E6E6;
+  border-radius: 5px;
+}
+
+
+/*======Movie list======*/
+.content-item {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: fit-content;
+}
+
+/*======Selection display=======*/
+.active {
+  width: 3px;
+  height: 40px;
+  background: #0685D7;
+  margin: 5px 0 0 5px;
+}
+
+/*=======Film name=======*/
+.content-item div {
+  width: 297px;
+  font-size: 1.5rem;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  cursor: pointer;
+}
+
+/*======Item description======*/
+.content-title {
+  display: flex;
+  width: 600px;
+  height: 640px;
+  border-left: 2px solid antiquewhite;
+}
+
+.title-desc {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Lato', sans-serif;
+}
+
+.title-name {
+  font-weight: 700;
+  font-size: 2em;
+  margin: 10px 0 0 20px;
+}
+
+.date {
+  margin: 0 0 0 20px;
+}
+
+.actor {
+  display: flex;
+  margin-left: 10px;
+}
+
+.actor-name {
+  width: 80px;
+  height: 40px;
+  text-align: center;
+  margin: 20px 0 0 10px;
+  border-radius: 5px;
+  background: #0685D7;
+  color: white;
+  font-size: 14px;
+  padding-top: 5px;
+}
+
+.item-desc {
+  margin: 20px 0 0 20px;
+}
+
+.fa-heart {
+  margin: 10px 0 0 30px;
+  font-size: 25px;
+}
+
+#image {
+  width: 250px;
+  border-radius: 5px;
+  margin: 10px 0 0 10px;
+}
