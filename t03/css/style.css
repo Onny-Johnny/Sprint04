@@ -1,0 +1,39 @@
+body {
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+.block {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  transform: rotate(45deg);
+  cursor: pointer;
+}
+
+.red {
+  background: red;
+}
+
+.green {
+  background: green;
+}
+
+.blue {
+  background: blue;
+}
+
+.purple {
+  background: purple;
+}
+
+.yellow {
+  background: yellow;
+}
+
+.orange {
+  background: orange;
+}
