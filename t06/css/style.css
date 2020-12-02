@@ -1,0 +1,83 @@
+body * {
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+.chatWindow {
+  width: 20em;
+  height: 30em;
+  border: 1px solid darkred;
+  border-radius: .5em;
+  margin: 0 auto;
+  position: relative;
+}
+
+.chatHeader {
+  text-align: center;
+  background: darkred;
+  border-radius: .2em .2em 0 0;
+  font-size: 1.6em;
+  font-weight: bold;
+  color: white;
+  z-index: 1;
+}
+
+.input {
+  display:               grid;
+  grid-template-columns: .9fr 2em;
+  position:              absolute;
+  bottom:                0;
+  left: 1em;
+  width:                 100.7%;
+}
+.send {
+  margin: .1em;
+  color: darkred;
+  font-size: 1.5em;
+  transition: .1s;
+}
+
+input {
+  border: none;
+  outline: none;
+  padding: .4em;
+  font-size: 1.1em;
+}
+
+.msgBox {
+  border-bottom: 1px solid darkred;
+  position: absolute;
+  bottom: 2.4em;
+  max-width: 100%;
+  max-height: 86%;
+  width: 100%;
+  overflow: auto;
+}
+
+.userMsg, .jarvisMsg {
+  display: block;
+  width: fit-content;
+  word-wrap: break-word;
+  max-width: 70%;
+  font-size: 1.1em;
+  font-weight: 600;
+  border-radius: .25em;
+  padding: .2em .5em;
+  color: white;
+}
+
+.userMsg {
+  margin: .4em .4em .4em auto;
+  background: darkred;
+}
+
+.jarvisMsg {
+  margin: .4em auto .4em .4em;
+  background: #6c6f73;
+}
+
+
+
