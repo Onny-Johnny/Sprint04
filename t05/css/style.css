@@ -1,0 +1,23 @@
+.menu {
+  font-family: 'Lobster', cursive;
+  margin: 0 auto;
+  width: 40em;
+  text-align: center;
+  background: transparent;
+  position: relative;
+}
+
+img {
+  width: inherit;
+  height: inherit;
+  z-index: -1;
+  position: absolute;
+  left: 3%
+}
+
+.section-header { font-size: 1.4em; }
+
+.position {
+  display: flex;
+  justify-content: space-around;
+}
