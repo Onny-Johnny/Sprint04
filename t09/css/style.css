@@ -1,0 +1,49 @@
+body * {
+  box-sizing:  border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+.forecast {
+  display:         flex;
+  width:           80%;
+  max-width:       60em;
+  margin:          0 auto;
+  flex-wrap:       wrap;
+  justify-content: space-around;
+  background:      linear-gradient(90deg, #84bfb2, #45526d);
+  border-radius:   .5em;
+}
+
+.city {
+  font-size:   1.3em;
+  text-align:  center;
+  color:       #48484a;
+  font-weight: 900;
+  width: 100%;
+  margin: 1em;
+}
+
+.day {
+  display:        flex;
+  flex-direction: column;
+  background:     #a8beba;
+  height:         80%;
+  margin:         .5em;
+  text-align:     center;
+  border-radius:  .5em;
+  padding:        .5em;
+  color:          #48484a;
+}
+
+.dayOfWeek {
+  text-shadow:    grey;
+  text-transform: uppercase;
+  font-weight:    700;
+  font-size:      1.2em;
+}
+
+.date {font-size: 0.9em;}
+
+img { width: 5em; }
+
+.temperature { font-weight: 700;}
