@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+  <title>User profile</title>
+  <meta charset="utf-8">
+  <meta name="description" content="t07. User profile">
+  <meta name="viewport" content="width=device-width, initial-scale-1">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+<img src="./assets/images/user.png" alt="profile image">
+<h1>Profile</h1>
+<div class="form__group">
+  <label for="name">Full name:</label><br>
+  <input id="name" type="text" disabled value="Peter Parker">
+  <button onclick="edit(this)" class="btn">edit</button>
+</div>
+<div class="form__group">
+  <label for="age">Age:</label><br>
+  <input id="age" type="text" disabled value="18">
+  <button onclick="edit(this)" class="btn">edit</button>
+</div>
+<div class="form__group">
+  <label for="email">Email:</label><br>
+  <input id="email" type="text" disabled value="spidey@gmail.com">
+  <button onclick="edit(this)" class="btn">edit</button>
+</div>
+<script src="js/script.js"></script>
+</body>
+
+</html>
+
